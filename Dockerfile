@@ -1,3 +1,4 @@
+FROM python:3.8-slim
 COPY * ./
 
 # install dependencies to the local user directory (eg. /root/.local)
